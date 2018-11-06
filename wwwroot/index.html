@@ -1,0 +1,47 @@
+<html ng-app="questadmin">
+
+<head>
+    <title>Quest Admin</title>
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="libs/angular/angular.js"></script>
+</head>
+
+<body ng-controller="main">
+    <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-2 bg-dark">
+                    <nav id="sidebar" class="">
+                            <div class="sidebar-header">
+                                <h3 class="text-light">{{roomName}}</h3>
+                                <h6 class="text-info">Quest Room Admin</h6>
+                            </div>
+                
+                            <ul class="list-unstyled components">
+                                <li><a href="#" class="text-light">New Room</a></li>
+                                <li><a href="#" class="text-light">Load Room</a></li>
+                                <li><a href="#" class="text-light">Save Room</a></li>
+                                <li><a href="#" class="text-light">Delete Room</a></li>
+                                <li><a href="#" class="text-light">Add Focus Item</a></li>
+                                <li><a href="#" class="text-light">Add Door</a></li>
+                            </ul>
+                        </nav>
+            </div>
+            <div class="col-lg-8">
+
+            </div>
+            <div class="col-lg-2">
+                <ul id="FocusItems">
+
+                </ul>
+                <ul id="Doors">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="questadmin.js"></script>
+</html>
